@@ -26,7 +26,6 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         listView = (ListView) findViewById(R.id.lv);
         listView.setAdapter(myAdapter);
         listView.setOnItemClickListener(this);
-//        listView.setAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_expandable_list_item_1, getData()));
     }
 
     private List<String> getData(){
